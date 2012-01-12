@@ -1,0 +1,3 @@
+X -bpp 16 &
+export DISPLAY=:0
+./mp3

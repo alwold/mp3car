@@ -1,0 +1,16 @@
+This is my mp3 frontend for use in the car
+
+Right now, it's pretty simple, but you can expect more in the future.
+
+Future plans:
+mikmod support
+replace progress bar with adjustable slider
+ffwd, rew support (with continuous operation if you hold it down)
+saved playlists
+multiple directory support
+pixmaps on the main buttons
+
+Installing:
+Edit the Makefile/source if you want to do anything funky
+Type make
+Copy "mp3" to wherever

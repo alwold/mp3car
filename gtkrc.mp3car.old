@@ -1,0 +1,6 @@
+style "default"
+{
+  font = "-*-lucida-medium-r-normal-*-24-*-*-*-*-*-iso8859-1"
+}
+
+widget_class "*" style "default"

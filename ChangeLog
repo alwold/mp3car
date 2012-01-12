@@ -1,0 +1,6 @@
+Version 1.0:
+Supports MP3 playing with a standard mpg123 executable
+Extracts a file list from one directory
+Playlist support
+Standard controls, except no ffwd, rew yet
+Time counter and progress bar

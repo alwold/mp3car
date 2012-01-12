@@ -1,0 +1,41 @@
+Intro screen
+ spinning car? :)
+ logos, intro sound
+
+Main Interface
+-Song Buttons
+-playlist
+ * clear
+ * delete
+ * disable?
+-Control Buttons
+-Progress Bar
+-shutdown button
+-Oscilloscope?
+ (perhaps a notebook would be good for separation between files/play)
+
+Play spawns a child mpg123
+each iteration of the gtk loop will read/write the mpg123 process if
+the flag "mpg123 open" is on.  an array will hold pending mpg123 commands
+
+send_mp3_cmd( int cmd, char *arg )
+ cmd:
+  play (arg song)
+  stop
+  ff
+  rw
+  next song
+  prev song
+  pause
+
+int get_mp3_progress();
+ returns seconds elapsed
+
+close_mp3();?
+
+
+struct playlist
+  char **dirs
+  char **artists
+  char **titles
+  int numsongs
